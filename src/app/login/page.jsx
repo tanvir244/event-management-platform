@@ -1,9 +1,10 @@
+import Login from '@/components/Login/Login';
 import React from 'react';
 
 const page = () => {
     return (
-        <div>
-            login page
+        <div className='my-12'>
+            <Login />
         </div>
     );
 };

@@ -1,12 +1,21 @@
+import { NextResponse } from "next/server";
+
 
 export const POST = async (request) => {
     const {name, email, password} = await request.json();
 
-    // create a DB connection
+    console.log(name, email, password);
 
-    // Encrypt the password 
+    // create a DB conection
 
-    // From a DB payload
+    // Encrypt the password
 
-    // Update the DB 
+    // Form a DB payload 
+
+    // Update the DB
+
+    return new NextResponse("User has been created", {
+        status: 201
+    })
+
 }
